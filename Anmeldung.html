@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="anmeldung" content="Anmeldeung bei meiner Seite">
+    <title>Anmeldung</title>
+</head>
+<body>
+    <div>
+        <h1>Anmeldung</h1>
+        <div>
+            <div>
+                <p>Die Zellen mit <span>*</span> sind pflichtet !!</p>
+            </div>
+            <form method="post">
+                <div>
+                <label for="anrede" >Anrede:    *</label>
+                <select name="anrede" id="anrede" required autofocus>
+                    <option value="Herr">Herr</option>
+                    <option value="Frau">Frau</option>
+                    <option value="Andere">Andere</option>
+                </select>
+            </div> 
+               <div>
+                 <label for="vor">Vorname:  * </label>
+                 <input id="vor" type="text" required placeholder="Vorname">
+            </div>
+            <div>
+                <label for="nach">Nachname:*</label>
+                 <input id="nach" type="text" required placeholder="Nachname">
+            </div>
+            <div>
+                <label for="mail">E-Mail:*</label>
+                <input id="mail" type="email" required placeholder="E-Mail">
+            </div>
+            <hr>
+        
+             <div>
+                    <label for="date">Geburtsdatum:*</label>
+                    <input type="date" required>
+                </div>
+                <div>
+                    <label for="mail">E-Mail:*</label>
+                    <input id="mail" type="email" required placeholder="E-Mail">
+            </div>
+            <div>
+                <label for="pass">Ersetzen Sie bitte Ihr Passwort:  *</label>
+                <input type="password" id="pass" min="8" max="20" required placeholder="Passwort">
+            </div>
+            <div>
+                <label for="tel">Handynummer:</label>
+                <input type="tel" placeholder="Handynummer">
+            </div>
+            
+        
+            <hr>
+            <div>
+                <label for="file">profile Photo</label>
+                <input type="file" name="file" id="file" >
+            </div>
+            <hr>
+            <div>
+                <input type="reset" value="Zurücksetzen">
+                <input type="submit" value="Abschicken">
+            </div>
+           
+        </div>
+    </form>
+    </div>
+    
+</body>
+</html>

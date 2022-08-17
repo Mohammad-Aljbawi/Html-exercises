@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="kontakt">
+    <title>Kontakt</title>
+</head>
+<body>
+    <hr>
+    <div>
+        <div><h4>Nehme ich Ihre Nachricht gerne an :) </h4>
+        </div>
+        <div>
+            <p>Die Zellen mit <span>*</span> sind pflichtet !!</p>
+        </div>
+         <!-- <div>
+                <input id="herr" type="radio" name="herr" value="herr" checked>
+                <label for="herr"> Herr</label>
+            </div>
+            <div>
+                <input id="frau" type="radio" name="frau" value="frau" >
+                <label for="frau">Frau</label>
+            </div>
+            <div>
+                <input id="and" type="radio" name="andere" value="andere" >
+                <label for="and">Andere</label>
+            </div> 
+            <hr> -->
+            <form method="post">
+                <div>
+                <label for="anrede" >Anrede:    *</label>
+                <select name="anrede" id="anrede" required autofocus>
+                    <option value="Herr">Herr</option>
+                    <option value="Frau">Frau</option>
+                    <option value="Andere">Andere</option>
+                </select>
+            </div> 
+               <div>
+                 <label for="vor">Vorname:  * </label>
+                 <input id="vor" type="text" required placeholder="Vorname">
+            </div>
+            <div>
+                <label for="nach">Nachname:*</label>
+                 <input id="nach" type="text" required placeholder="Nachname">
+            </div>
+            <div>
+                <label for="mail">E-Mail:   *</label>
+                <input id="mail" type="email" required placeholder="E-Mail">
+            </div>
+            <hr>
+            <div>   <label for="nachricht">Nachricht:*</label></div>
+            <div>
+               <textarea name="nachricht" id="nachricht" cols="30" rows="10" placeholder="Die Nachricht"></textarea>
+            </div>
+            <div>
+                <input type="reset" value="Zurücksetzen">
+                <input type="submit" value="Abschicken">
+            </div>
+            </div>
+        </form>
+        
+
+    </div>
+</body>
+</html>
